@@ -8,7 +8,7 @@ public class BinaryaSearchImpl {
     @Autowired
 //    @Qualifier("quick")
 
-    private SortAlg sortAlg;
+    private SortAlg quickSort;
 //setter
 
 //    public void setSortAlg(SortAlg sortAlg) {
@@ -22,8 +22,8 @@ public class BinaryaSearchImpl {
 //        BubbleSortAlg bubbleSortAlg = new BubbleSortAlg();
 //        QuickSort quickSort = new QuickSort ();
 
-        int[] sortedNumbers = sortAlg.sort(numbers);
-        System.out.println(sortAlg);
+        int[] sortedNumbers = quickSort.sort(numbers);
+        System.out.println(quickSort);
         return 12;
     }
 }
