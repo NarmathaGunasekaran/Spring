@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class BinaryaSearchImpl {
     @Autowired
-    @Qualifier("quick")
+//    @Qualifier("quick")
 
     private SortAlg sortAlg;
 //setter
